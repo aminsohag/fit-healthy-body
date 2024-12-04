@@ -1,0 +1,27 @@
+/* Mobile Device Responsive */
+
+@media screen and (max-width:576px) {
+    .menu-bar{
+        display: block;
+    }
+    .navbar-item{
+        display: none;
+    }
+    .banner-part{
+        flex-direction: column;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .card-1{
+        bottom: 40%;
+        left: 10%;
+    }
+    .card-2{
+        top: 10%;
+        left: 60%;
+    }
+}
