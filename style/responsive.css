@@ -70,5 +70,9 @@
     #select-it{
         width: 100%;
     }
+    /*  */
+    .img-grid-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }

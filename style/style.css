@@ -311,3 +311,48 @@ input, select{
     color: rgba(255, 255, 255, 0.5);
     margin: 1rem 0 2rem 0;
 }
+
+/*  fourth section*/
+.fourth{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.team{
+    margin: 4rem 0 3rem 0;
+    text-align: center;
+}
+.team h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.team p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.grid-card{
+    background-color: #222222;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.img-grid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.img-cards{
+    position: relative;
+}
+.img-cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.img-title{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.img-title p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+}
