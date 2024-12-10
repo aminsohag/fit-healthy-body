@@ -356,3 +356,52 @@ input, select{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
 }
+
+/* footer */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 3rem;
+}
+.foot{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0 4rem 0;
+}
+.fitness-text{
+    width: 450px;
+    /* border: 1px solid red; */
+}
+.get-started{
+    width: 200px;
+    /* border: 1px solid red; */
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+.foot-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.foot-des{
+    color: rgba(255, 255, 255, 0.5);
+}
+.get-started h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.get-started p{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 2.5rem;
+    text-align: center;
+}
