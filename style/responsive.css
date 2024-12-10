@@ -1,6 +1,7 @@
 /* Mobile Device Responsive */
 
 @media screen and (max-width:576px) {
+    /* banner section  */
     .menu-bar{
         display: block;
     }
@@ -24,4 +25,32 @@
         top: 10%;
         left: 60%;
     }
+    /* first section */
+    .round-card{
+        grid-template-columns: 1fr;
+        /* align-items: center; */
+        /* align-content: center; */
+        justify-items: center;
+    }
+    .round-text{
+        width: 400px;
+    }
+    .round-title{
+        font-size: 2rem;
+    }
+        /* second section */
+    .run-flex{
+        flex-direction: column;
+    }
+    .run-section{
+        width: 100%;
+    }
+    .run-im{
+        margin-top: 2rem;
+    }
+    .run-img{
+        object-fit: none;
+        object-position: 68% 28% ;
+    }
+    
 }

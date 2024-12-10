@@ -75,7 +75,6 @@ header{
 }
 .banner-image img{
     width: 100%;
-    /* position: relative; */
 }
 .banner-part{
     display: flex;
@@ -122,6 +121,7 @@ header{
 
 .card-1{
     display: flex;
+    align-items: center;
     position: absolute;
     background-color: rgba(103, 102, 102, 0.54);
     padding: 20px;
@@ -141,4 +141,82 @@ header{
 .card-2, .card-1 p{
     font-size: 13px;
 }    
+.card-2 h1{
+    font-size: 40px;
+    font-weight: 800;
+}  
 
+/* main part */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* first section */
+
+.first-section{
+    margin: 5rem 0;
+}
+.round-pic{
+    border-radius: 50%;
+}
+.round-title{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.round-des{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.round-text{
+    width: 600px;
+    margin: 0 auto;
+}
+.cards{
+    width: 220px;
+    text-align: center;
+}
+.round-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.pic-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+/* second section */
+.run-section{
+    width: 45%;
+}
+.run-img{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 70% 30%;
+    border-radius: 1rem;
+}
+.second-section{
+    background-color: #222222;
+    border-radius: 1rem;
+}    
+.run-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.run-des{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
