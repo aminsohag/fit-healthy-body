@@ -147,7 +147,7 @@ header{
 }  
 
 /* main part */
-main{
+.first, .second{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -204,6 +204,7 @@ main{
 .second-section{
     background-color: #222222;
     border-radius: 1rem;
+    margin-bottom: 4rem;
 }    
 .run-flex{
     display: flex;
@@ -219,4 +220,94 @@ main{
 .run-des{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* challenge part */
+.challenge{
+    background-color: #222222;
+}
+.motivation{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.video-title{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.video-des{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.videos-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+/*  */
+.bmi-table-chart{
+    background-color: #222222;
+}
+.bmi-calculate{
+    max-width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+table,tr,td,th{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 0.5rem;
+    margin-top: 2.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-text{
+    width: 60%;
+    margin: 4rem auto;
+    text-align: center;
+}
+.bmi-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.bmi-text p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1rem 0;
+}
+select{
+    color:rgba(255, 255, 255, 0.5);
+}
+.input-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+}
+.calculate-text{
+    width: 60%;
+    margin-bottom: 3rem;
+}
+input, select{
+    width: 290px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0.5rem;
+}
+#select-it{
+    width: 605px;
+}
+.bmi-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.bmi-des{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1rem 0 2rem 0;
 }

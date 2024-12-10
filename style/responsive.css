@@ -52,5 +52,23 @@
         object-fit: none;
         object-position: 68% 28% ;
     }
+    /* challenge part */
+    .videos-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*  */
+    .bmi-text{
+        width: 80%;
+        text-align: left;
+    }
+    .bmi-calculate{
+        flex-direction: column;
+    }
+    .calculate-text{
+        width: 100%;
+    }
+    #select-it{
+        width: 100%;
+    }
     
 }
