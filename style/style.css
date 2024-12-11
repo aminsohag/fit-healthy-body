@@ -61,6 +61,7 @@ header{
     font-size: 2.25rem;
     font-weight: 800;
     color: #E6533C;
+    font-style: italic;
 }
 .menu-bar{
     display: none;
@@ -147,7 +148,7 @@ header{
 }  
 
 /* main part */
-.first, .second{
+.first, .second, .third{
     max-width: 80%;
     margin: 0 auto;
 }
@@ -220,6 +221,76 @@ header{
 .run-des{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* third */
+.exer-text{
+    width: 60%;
+    margin: 1rem auto 3rem;
+    text-align: center;
+}
+.exer-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.exer-text p{
+    margin: 1rem 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.exer-img{
+    width: 100%;
+    height: 100%;
+}
+.exercise-top{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr 1fr;
+}
+.exercise-bottom{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1.2fr;
+}
+.exercise-card{
+    position: relative;
+}
+.card-img-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background:rgba(6, 255, 210, 0.5);
+}
+.c1st{
+    justify-content: center;
+    align-items: end;
+}
+.c2nd{
+    background: rgba(255, 0, 0, 0.3);
+    justify-content: center;
+}
+.c3rd{
+    background: rgba(0, 0, 0, 0.5);
+    align-items: end;
+    justify-content: center;
+}
+.c4th{
+    background: rgba(0, 0, 0, 0.5);
+    align-items: end;
+    justify-content: center;
+}
+.c5th{
+    background: rgba(66, 255, 0, 0.3);
+    align-items: end;
+    justify-content: center;
+}
+.c6th{
+    background: rgba(0, 71, 255, 0.3);
+    align-items: end;
+    justify-content: center;
+}
+.exercise-images{
+    margin-bottom: 3rem;
 }
 
 /* challenge part */
