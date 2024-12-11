@@ -17,6 +17,13 @@
     .banner-image{
         width: 100%;
     }
+    .banner-title{
+        font-size: 2.25rem;
+    }
+    .banner-btn{
+        font-size: 16px;
+        padding: 0.8rem 1.2rem;
+    }
     .card-1{
         bottom: 40%;
         left: 10%;
@@ -33,7 +40,7 @@
         justify-items: center;
     }
     .round-text{
-        width: 400px;
+        width: 100%;
     }
     .round-title{
         font-size: 2rem;
@@ -44,6 +51,9 @@
     }
     .run-section{
         width: 100%;
+    }
+    .run-title{
+        font-size: 2rem;
     }
     .run-im{
         margin-top: 2rem;
@@ -56,20 +66,34 @@
     .videos-grid{
         grid-template-columns: repeat(1, 1fr);
     }
+    .video-title{
+        font-size: 2rem;
+    }
     /*  */
     .bmi-text{
-        width: 80%;
-        text-align: left;
+        width: 100%;
+        /* text-align: left; */
+    }
+    .bmi-text h1{
+        font-size: 2rem;
     }
     .bmi-calculate{
         flex-direction: column;
+        
+    }
+    .table-data{
+        width: 100%;
     }
     .calculate-text{
         width: 100%;
     }
-    #select-it{
+    .team h1{
+        font-size: 2rem;
+    }
+    .team{
         width: 100%;
     }
+    
     /*  */
     .img-grid-section{
         grid-template-columns: repeat(1, 1fr);
@@ -82,6 +106,9 @@
     /*  */
     .foot-grid{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .fitness-text{
+        width: 100%;
     }
     
 }
